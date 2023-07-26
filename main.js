@@ -241,7 +241,7 @@ const pets = [
     }
   ]; 
 
-  const pet = document.querySelector("#pets");
+  const app = document.querySelector("#app");
   let domString = "";
   for (const pet of pets) {
     domString += `<div class="card" style="width: 18rem;">
@@ -255,4 +255,8 @@ const pets = [
     </div>`;
 };
 
-pet.innerHTML = domString;
+const filter = (array, typeOfPet) => {
+  const petArray = [];
+}
+
+app.innerHTML = domString;
